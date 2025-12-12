@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const screams = ["触るな！", "ぎゃあああ", "変態！", "Dirty!", "NO!!!"];
             runawayBtn.innerText = screams[Math.floor(Math.random() * screams.length)];
-            runawayBtn.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+            runawayBtn.style.backgroundColor = '#' + Math.floor(Math.random() * 7215).toString(16);
         });
     }
 
@@ -79,3 +79,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }, 1000);
 });
+
